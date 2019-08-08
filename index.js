@@ -93,7 +93,7 @@ type Options = {
   message?: string,
   title?: string,
   subject?: string,
-  excludedActivityTypes?: string,
+  excludedActivityTypes?: Array<string>,
   failOnCancel?: boolean,
   showAppsToView?: boolean,
 };
@@ -104,7 +104,7 @@ type MultipleOptions = {
   message?: string,
   title?: string,
   subject?: string,
-  excludedActivityTypes?: string,
+  excludedActivityTypes?: Array<string>,
   failOnCancel?: boolean,
   showAppsToView?: boolean,
 };
